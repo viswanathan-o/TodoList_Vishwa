@@ -1,0 +1,35 @@
+<!DOCTYPE>  what is doctype, purpose of doctype ?
+
+<html> // various parts of html document, each tag purpose , what were new in html5?
+    <head> // what can be inclucded in head tag, its purpose?
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> // what is a link , what can be linked?
+    <link rel="stylesheet" href="/Users/Recode Solutions.LAPTOP-HJNGPGFK/Desktop/Training/todolist.css">
+    <title>
+    To do list
+    </title>
+    </head>
+    <body class=page-layout> // use of classes , ids in tag
+        <h1 class=centre-align> 
+            WORK TO-DOS
+        </h1>
+        <div class=centre-align id=firstline>
+        Enter text into the inpiut field to add into the list
+        </div>
+        <div class=centre-align id=secondline>
+        Click the item to mark it as complete.
+        </div>
+        <div class=centre-align id=thirdline>
+        Click the "X" to remove the item from your list.
+        </div>
+        <div class="centre-align box-button">
+        <input type=text placeholder="NewItem..." id=inputText> // properties of input tag , try to include all properties of button to explore them
+        <button onClick="addToListAfterClick()"><i class="fa fa-pencil" id="addbutton"></i></button> 
+        //button properties - understand and explore, font awesome icons how to get them in?
+        </div>  
+        
+        <div class=centre-align id=todolist>
+            <ul></ul>
+        </div>
+        <script src="/Users/Recode Solutions.LAPTOP-HJNGPGFK/Desktop/Training/todolist.js"></script> // how to include javascript
+    </body>
+</html>

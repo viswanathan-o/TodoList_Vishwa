@@ -1,0 +1,35 @@
+.page-layout
+{
+    background-color: #04A1BF
+}
+
+h1{
+   margin-top: 5%;
+   color: white;
+}
+
+.centre-align{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    
+}
+
+#firstline{
+   color: #FFCD5D;
+   margin-top: 1%;
+}
+
+#secondline{
+    color:#51DF70;
+    margin-top: 1%;
+ }
+
+ #thirdline{
+     color:#025F70;
+     margin-top: 1%;
+ }
+
+ .box-button{
+    margin-top: 1%;
+ }
